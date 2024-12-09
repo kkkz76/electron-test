@@ -1,0 +1,17 @@
+{
+    "appId": "com.example.app",
+    "files" : ["dist-electron", "dist-react"],
+    "productName": "My App",
+    "icon": "public/social-media.png",
+    "mac":{
+        "target" : "dmg"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category" : "Utility"
+    },
+    "win": {
+        "target": ["portable", "msi"]
+    }
+   
+} 
